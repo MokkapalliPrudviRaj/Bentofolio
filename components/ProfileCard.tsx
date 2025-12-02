@@ -3,7 +3,7 @@ import { BentoCard } from "./BentoCard";
 import { Sparkles } from "lucide-react";
 
 export const ProfileCard: React.FC<{ className?: string }> = ({ className }) => {
-  const [imgSrc, setImgSrc] = useState("/image.jpeg");
+  const [imgSrc, setImgSrc] = useState("/Bentofolio/image.jpeg");
 
   return (
     <BentoCard
