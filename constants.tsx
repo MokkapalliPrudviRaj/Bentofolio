@@ -31,7 +31,7 @@ export const PROJECTS: Project[] = [
 export const EXPERIENCE: Experience[] = [
   {
     company: "Infosys",
-    role: "Frontend Angular Dev",
+    role: "Angular Developer",
     period: "May 2025 - Present",
     logo: "INF",
   },

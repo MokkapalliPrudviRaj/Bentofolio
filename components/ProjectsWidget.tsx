@@ -10,7 +10,7 @@ export const ProjectsWidget: React.FC<{ className?: string }> = ({ className }) 
         {PROJECTS.map((project, idx) => (
           <div 
             key={idx}
-            className="group/item flex flex-col p-4 rounded-2xl bg-neutral-50 dark:bg-neutral-800/50 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-all border border-transparent hover:border-neutral-200 dark:hover:border-neutral-700 h-full min-h-[140px]"
+            className="group/item flex flex-col p-4 rounded-2xl bg-neutral-50 dark:bg-neutral-800/50 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-all border border-transparent hover:border-neutral-200 dark:hover:border-neutral-700 h-full min-h-fit"
           >
             <div className="flex justify-between items-start mb-2">
               <div className="flex items-center gap-2">
